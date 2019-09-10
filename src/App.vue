@@ -1,7 +1,7 @@
 <template>
     <div id="app">
-        <ProductListOne :products="products"></ProductListOne>
-        <ProductListTwo :products="products"></ProductListTwo>
+        <ProductListOne ></ProductListOne>
+        <ProductListTwo ></ProductListTwo>
     </div>
 </template>
 
@@ -17,24 +17,7 @@ import ProductListTwo from './components/ProductsListTwo' ;
         },
         data() {
             return {
-                products: [
-                    {
-                        'name' : 'Banana',
-                        'price': '25'
-                    },
-                    {
-                        'name' : 'Mango',
-                        'price': '50'
-                    },
-                    {
-                        'name' : 'Watermelon',
-                        'price': '15'
-                    },
-                    {
-                        'name' : 'Strawberry',
-                        'price': '12'
-                    },
-                ]
+
             }
         }
     }

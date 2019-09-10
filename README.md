@@ -1,4 +1,4 @@
-# first-vue-project
+# Vuex-training
 
 ## Project setup
 ```
